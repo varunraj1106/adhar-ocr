@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn imageNetProj.wsgi 
+web: gunicorn adhar-ocr.wsgi 
